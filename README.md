@@ -1,3 +1,10 @@
+# Europe 2019 Travel information
+
+To setup for [git hosting](https://github.com/gitname/react-gh-pages)
+`npm install gh-pages --save-dev`
+
+Edit in `package.json` a *homepage* and *scripts*
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
