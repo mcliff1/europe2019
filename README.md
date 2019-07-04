@@ -1,11 +1,16 @@
 # Europe 2019 Travel information
+[Published Content](https://mcliff1.github.io/europe2019/index.html)
 
 To setup for [git hosting](https://github.com/gitname/react-gh-pages)
 `npm install gh-pages --save-dev`
 
 Edit in `package.json` a *homepage* and *scripts*
 
+To push a new build run `npm run deploy`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
 
 ## Available Scripts
 

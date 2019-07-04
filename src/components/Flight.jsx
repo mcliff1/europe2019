@@ -17,7 +17,7 @@ class Flight extends Component {
         <table className="Table" border="1">
           <tbody>
             <tr><td colspan="2">Flight Number {flightInfo.flight_number}</td></tr>
-            <tr><td>1</td><td>1</td></tr>
+            <tr><td>Origin {flightInfo.origin}</td><td>1</td></tr>
             <tr><td>1</td><td>1</td></tr>
           </tbody>
         </table>
