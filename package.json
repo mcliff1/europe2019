@@ -2,7 +2,7 @@
   "name": "europe2019",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://mcliff1.github.io/europ2019"
+  "homepage": "http://mcliff1.github.io/europ2019",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.8.6",
