@@ -4,16 +4,16 @@ import Flight from './Flight';
 const flightInfo = [
   {
     flight_number: 1,
-    origin: "Rome",
-    destination: "Pais",
+    origin: "Denver",
+    destination: "Rejevik",
     departure: "20 Jul 5:12P",
     arrival: "20 Jul 6:50P",
     note: ""
   },
   {
-    flight_number: 2,
-    origin: "Rome",
-    destination: "Pais",
+    flight_number: "UA775",
+    origin: "Vienna",
+    destination: "Rome`",
     departure: "20 Jul 5:12P",
     arrival: "20 Jul 6:50P",
     note: ""
