@@ -1,5 +1,6 @@
 import React from 'react';
-import FlightList from './components/FlightList';
+import FlightInfo from './components/FlightInfo';
+import LodgeInfo from './components/LodgeInfo';
 import './App.css';
 
 
@@ -7,8 +8,8 @@ function App() {
   return (
     <div className="App">
       European Travel Information
-      <FlightList />
-      <p>Lodging</p>
+      <FlightInfo />
+      <LodgeInfo />
       <p>Trains</p>
       <p>Activities</p>
     </div>
