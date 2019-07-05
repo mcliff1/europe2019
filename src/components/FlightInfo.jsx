@@ -8,7 +8,7 @@ const flightInfo = [
     destination: "Reykjavik",
     departure: "12 Jul 7:50P",
     arrival: "13 Jul 9:15A",
-    note: "WCEYPB, seats 11C-F"
+    note: "seats 11C-F"
   },
   {
     flight_number: "FI530",
@@ -19,11 +19,19 @@ const flightInfo = [
     note: "seats 12A-D"
   },
   {
-    flight_number: "UA775",
+    flight_number: "Iberia6687",
     origin: "Vienna",
     destination: "Rome",
     departure: "20 Jul 5:12P",
     arrival: "20 Jul 6:50P",
+    note: "need seats/luggage"
+  },
+  {
+    flight_number: "LH1857",
+    origin: "Milan",
+    destination: "Munich",
+    departure: "26 Jul 12:25P",
+    arrival: "26 Jul 1:35P",
     note: ""
   },
   {

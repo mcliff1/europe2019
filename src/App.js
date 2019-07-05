@@ -1,6 +1,8 @@
 import React from 'react';
 import FlightInfo from './components/FlightInfo';
 import LodgeInfo from './components/LodgeInfo';
+import TrainInfo from './components/TrainInfo';
+import ActivityInfo from './components/ActivityInfo';
 import './App.css';
 
 
@@ -10,8 +12,8 @@ function App() {
       European Travel Information
       <FlightInfo />
       <LodgeInfo />
-      <p>Trains</p>
-      <p>Activities</p>
+      <TrainInfo />
+      <ActivityInfo />
     </div>
   );
 }
