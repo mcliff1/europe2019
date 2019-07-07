@@ -4,19 +4,15 @@ import ActivityDetail from './ActivityDetail';
 const trainInfo = [
   {
     name: "Denver",
-    origin: "Rejevik",
-    destination: "",
-    departure: "20 Jul 5:12P",
-    arrival: "20 Jul 6:50P",
-    note: ""
+    date: "20 Jul 6:50P",
+    note: "",
+    url: ""
   },
   {
-    name: "Vienna",
-    origin: "Rejevik",
-    destination: "",
-    departure: "20 Jul 5:12P",
-    arrival: "20 Jul 6:50P",
-    note: ""
+    name: "Munich General Info",
+    date: "20 Jul 6:50P",
+    note: "",
+    url: "https://www.muenchen.de/int/en.html"
   }
 ]
 

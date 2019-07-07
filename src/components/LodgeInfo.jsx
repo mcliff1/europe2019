@@ -7,6 +7,7 @@ const lodgeInfo = [
     address: "Rejevik",
     departure: "20 Jul 5:12P",
     arrival: "20 Jul 6:50P",
+    url: "",
     note: ""
   },
   {
@@ -14,6 +15,7 @@ const lodgeInfo = [
     address: "Rome`",
     departure: "20 Jul 5:12P",
     arrival: "20 Jul 6:50P",
+    url: "",
     note: ""
   }
 ]

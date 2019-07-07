@@ -40,7 +40,7 @@ const flightInfo = [
     destination: "Reykjavik",
     departure: "27 Jul 2:05P",
     arrival: "27 Jul 4:00P",
-    note: "terminal 1; seatsA-D"
+    note: "terminal 1; seats 12A-D"
   },
   {
     flight_number: "FI671",
