@@ -50,21 +50,23 @@ const lodgeInfo = [
     note: "owner: Guido"
   },
   {
-    name: "Florence",
-    address: "",
+    name: "Hotel Nizza - Florence",
+    address: "Via del Giglio, 5, 50123 Firenze FI",
     arrive: "24 Jul",
     depart: "26 Jul",
     checkin: "2P",
     checkout: "11A",
     url: "",
-    note: ""
+    note: "",
+    map: "https://www.google.com/maps/place/Via+del+Giglio,+5,+50123+Firenze+FI,"
   },
   {
-    name: "Munich",
-    address: "",
-    arrive: "17 Jul",
-    depart: "20 Jul",
-    checkin: "2P",
+    name: "Novotel Munich Airport",
+    address: "85356 Freising, Nordallee 29",
+    phone: "+49 89 9705130",
+    arrive: "26 Jul",
+    depart: "27 Jul",
+    checkin: "3P",
     checkout: "11A",
     url: "",
     note: "no checkin counter, private apartment"

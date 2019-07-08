@@ -21,12 +21,13 @@ const flightInfo = [
     tracker: "https://flightaware.com/live/flight/ICE530"
   },
   {
-    flight_number: "Iberia6687",
+    flight_number: "Iberia 5638/Vueling 6687",
     origin: "Vienna",
     destination: "Rome",
     departure: "20 Jul 5:12P",
     arrival: "20 Jul 6:50P",
-    note: "need seats/luggage"
+    note: "seats 17A-D  /luggage",
+    tracker: "https://flightaware.com/live/flight/IBE5638"
   },
   {
     flight_number: "LH1857",
@@ -35,7 +36,7 @@ const flightInfo = [
     departure: "26 Jul 12:25P",
     arrival: "26 Jul 1:35P",
     tracker: "https://flightaware.com/live/flight/DLH1857",
-    note: ""
+    note: "seats 11C-F"
   },
   {
     flight_number: "FI533",
