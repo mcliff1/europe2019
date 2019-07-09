@@ -24,8 +24,8 @@ const flightInfo = [
     flight_number: "Iberia 5638/Vueling 6687",
     origin: "Vienna",
     destination: "Rome",
-    departure: "20 Jul 5:12P",
-    arrival: "20 Jul 6:50P",
+    departure: "20 Jul 10:35A",
+    arrival: "20 Jul 12:15P",
     note: "seats 17A-D  /luggage",
     tracker: "https://flightaware.com/live/flight/IBE5638"
   },
