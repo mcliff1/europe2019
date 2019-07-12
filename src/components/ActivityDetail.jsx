@@ -8,9 +8,8 @@ class ActivityDetail extends Component {
       <div className="p-3">
         <table className="Table" border="1">
           <tbody>
-            <tr><td colspan="2">Activity {info.flight_number}</td></tr>
-            <tr><td>Origin: {info.origin}</td><td>Dest: {info.destination}</td></tr>
-            <tr><td>Dept: {info.departure}</td><td>Arrive: {info.arrival}</td></tr>
+            <tr><td colspan="2"><a href={info.url}>{info.title}</a></td></tr>
+            <tr><td>{info.location}</td><td>{info.date}</td></tr>
             <tr><td colspan="2">{info.note}</td></tr>
           </tbody>
         </table>
