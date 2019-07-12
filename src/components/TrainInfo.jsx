@@ -30,7 +30,8 @@ const trainInfo = [
     destination: "Milano Centrale",
     departure: "26 Jul 7:30A",
     arrival: "26 Jul 9:10A",
-    name: "Frecciarossa 9502"
+    name: "Frecciarossa 9502",
+    note: "Prima Classe"
   },
   {
     origin: "Milano Centrale",
