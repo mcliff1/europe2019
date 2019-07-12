@@ -15,7 +15,7 @@ const trainInfo = [
     destination: "Wien",
     departure: "17 Jul",
     arrival: "17 Jul",
-    name: ""
+    name: "",
     note: "hourly trains depart (2,5h)"
   },
   {
