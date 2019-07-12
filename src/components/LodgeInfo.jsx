@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import LodgeDetail from './LodgeDetail';
+import CollapsibleComponent from './CollapsibleComponent'
+
 
 const lodgeInfo = [
   {
@@ -77,10 +79,11 @@ class LodgeInfo extends Component {
   render() {
     return (
       <div className="border border-dark">
-        <p>Lodge Info</p>
+        <CollapsibleComponent title="Lodge Info">
         {lodgeInfo.map(info => (
           <LodgeDetail key={info.name} info={info} />
         ))}
+      </CollapsibleComponent>
       </div>
     );
   }

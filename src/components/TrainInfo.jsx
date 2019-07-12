@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import TrainDetail from './TrainDetail';
+import CollapsibleComponent from './CollapsibleComponent'
 
 const trainInfo = [
   {
@@ -46,10 +47,11 @@ class TrainInfo extends Component {
   render() {
     return (
       <div className="border border-dark">
-        <p>Train Info</p>
+        <CollapsibleComponent title="Train Info">
         {trainInfo.map(info => (
           <TrainDetail key={info.name} info={info} />
         ))}
+        </CollapsibleComponent>
       </div>
     );
   }

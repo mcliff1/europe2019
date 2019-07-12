@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import FlightDetail from './FlightDetail';
+import CollapsibleComponent from './CollapsibleComponent'
 
 const flightInfo = [
   {
@@ -62,10 +63,11 @@ class FlightInfo extends Component {
   render() {
     return (
       <div className="border border-dark">
-        <p>List of Flights</p>
+        <CollapsibleComponent title="Flight Info">
         {flightInfo.map(flight => (
           <FlightDetail key={flight.flight_number} info={flight} />
         ))}
+      </CollapsibleComponent>
       </div>
     );
   }

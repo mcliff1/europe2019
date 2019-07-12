@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+import { Collapse, Card, Button, CardBody } from 'reactstrap';
 
 
 
-class Collapsible extends Component {
+class CollapsibleComponent extends Component {
   constructor(props) {
     super(props);
     this.toggle = this.toggle.bind(this);
@@ -23,7 +24,7 @@ class Collapsible extends Component {
       <Card>
 
       <Button onClick={this.toggle} block outline className="text-left card-header btn-link">
-      {this.props.header}</Button>
+      {this.props.title}</Button>
 
       <Collapse isOpen={this.state.isOpen}>
           <CardBody>{this.props.children}</CardBody>
@@ -33,3 +34,6 @@ class Collapsible extends Component {
     );
   }
 }
+
+
+export default CollapsibleComponent;
