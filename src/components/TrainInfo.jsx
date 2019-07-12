@@ -3,20 +3,16 @@ import TrainDetail from './TrainDetail';
 
 const trainInfo = [
   {
-    name: "Denver",
-    origin: "Rejevik",
-    destination: "",
-    departure: "20 Jul 5:12P",
-    arrival: "20 Jul 6:50P",
-    note: ""
+    name: "Firenze to Milano",
+    departure: "26 Jul 7:30A",
+    arrival: "26 Jul 9:10A",
+    note: "Frecciarossa 9502"
   },
   {
-    name: "Vienna",
-    origin: "Rejevik",
-    destination: "",
-    departure: "20 Jul 5:12P",
-    arrival: "20 Jul 6:50P",
-    note: ""
+    name: "Milano Centrale to MXP",
+    departure: "26 Jul 9:25A",
+    arrival: "26 Jul 10:16A",
+    note: "Regionale 24922"
   }
 ]
 
