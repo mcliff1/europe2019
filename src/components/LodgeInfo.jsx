@@ -69,7 +69,7 @@ const lodgeInfo = [
     checkin: "3P",
     checkout: "11A",
     url: "",
-    note: "no checkin counter, private apartment"
+    note: "expedia conf: 6711TGP628"
   }
 ]
 
