@@ -12,11 +12,11 @@ const trainInfo = [
     note: "hourly trains depart (2h)"
   },
   {
-    origin: "Salzburg",
-    destination: "Wien",
-    departure: "17 Jul",
-    arrival: "17 Jul",
-    name: "",
+    origin: "Salzburg hbf",
+    destination: "Wien hbf",
+    departure: "17 Jul 10:12",
+    arrival: "17 Jul 13:05",
+    name: "Rj691",
     note: "hourly trains depart (2,5h)"
   },
   {
