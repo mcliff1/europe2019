@@ -1,5 +1,5 @@
-# Europe 2019 Travel information
-[Published Content](https://mcliff1.github.io/europe2019/index.html)
+# Europe 2019 and 2020  Travel information
+[Published Content](https://mcliff1.github.io/europe/index.html)
 
 To setup for [git hosting](https://github.com/gitname/react-gh-pages)
 `npm install gh-pages --save-dev`
